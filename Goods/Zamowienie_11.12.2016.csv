@@ -1,0 +1,4 @@
+3;
+cpu;intel;3500;4;8;LGA1156;256;512;8192;14;65;329.99;Krakow;
+cpu;intel;4000;4;8;LGA1156;256;512;8192;14;65;329.99;Gdansk;
+motherboard;gigabyte;LGA1156;z170;16nm;64;yes;200.0;Wroclaw;

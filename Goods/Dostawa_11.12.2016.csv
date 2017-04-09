@@ -1,0 +1,6 @@
+5;
+cpu;intel;3500;4;8;LGA1156;256;512;8192;14;65;329.99;
+cpu;intel;4000;4;8;LGA1156;256;512;8192;14;65;329.99;
+gpu;nvidia;700;1500;2560;8192;256;11;5.0;8192x4080;3;180;300.99;
+motherboard;gigabyte;LGA1156;z170;16nm;64;yes;200.0;
+powersupply;crosshair;500;titanium;429.99;

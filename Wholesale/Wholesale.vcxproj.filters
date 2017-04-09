@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Orders">
+      <UniqueIdentifier>{0cf64149-9a5f-4d46-b396-f135aaf36ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{53db83f7-f2dd-4013-94cc-84bd98d60a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Supplies">
+      <UniqueIdentifier>{5b89aa6f-56b3-46d1-906a-e4a0a81d6d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Backups">
+      <UniqueIdentifier>{82cdc106-8b54-4df1-8acc-148f118b6b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RouteManager">
+      <UniqueIdentifier>{5f49717e-34be-4e77-8422-4c7fc1997003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RouteManager\Header Files">
+      <UniqueIdentifier>{291bd2b8-1ecd-4969-ac2e-e58ab765be1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RouteManager\Source Files">
+      <UniqueIdentifier>{25ad71ef-6410-418e-beaf-227f8f8d927a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Storage">
+      <UniqueIdentifier>{158d1abc-b1d3-4af3-966e-167157bd15ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{8e654448-a81c-445f-ad48-9549fea1f6d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Goods">
+      <UniqueIdentifier>{3c2f2d3c-c582-4819-af0a-a5f8c442a79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Goods\Header Files">
+      <UniqueIdentifier>{2925ce65-9bbe-409f-9c51-4d3cd52c7658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Goods\Source Files">
+      <UniqueIdentifier>{3d607e3d-f19a-494b-a1c7-4b848051e803}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cpu.h">
+      <Filter>Goods\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gpu.h">
+      <Filter>Goods\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Goods\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Motherboard.h">
+      <Filter>Goods\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerSupply.h">
+      <Filter>Goods\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ram.h">
+      <Filter>Goods\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DijkstrasAlgorithm.h">
+      <Filter>RouteManager\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>RouteManager\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleLinkedList.h">
+      <Filter>Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="Headquater.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpu.cpp">
+      <Filter>Goods\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gpu.cpp">
+      <Filter>Goods\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Motherboard.cpp">
+      <Filter>Goods\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerSupply.cpp">
+      <Filter>Goods\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ram.cpp">
+      <Filter>Goods\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>RouteManager\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DijkstrasAlgorithm.cpp">
+      <Filter>RouteManager\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Headquater.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Goods\Zamowienie_11.12.2016.csv">
+      <Filter>Orders</Filter>
+    </None>
+    <None Include="..\Goods\Dostawa_11.12.2016.csv">
+      <Filter>Supplies</Filter>
+    </None>
+    <None Include="..\Goods\backup.csv">
+      <Filter>Backups</Filter>
+    </None>
+  </ItemGroup>
+</Project>
